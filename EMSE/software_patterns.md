@@ -99,7 +99,7 @@ Qualitative
 ![Example of the Adapter Pattern](img/adapter.png)
 
 ### Bridge Pattern:
-- **Context**: We are designing our system to interface with multiple options available (at design/runtime)
+- **Context**: We are designing our system to interface with multiple options available (at designtime)
 - **Problem**: We don't know how many future options there will be, but they should be able to be added. We want to avoid using multiple IF statements through our implementation which is hard to maintain
 - **Solution**: Create multiple usable implementations connected via an implementation bridge. Use delegation to invoke the function, which calls a class with multiple sub-classes (inheritance), each of which is an implementation
 
@@ -139,3 +139,5 @@ Qualitative
 - **Solution**: Allow the explicit nesting of objects via a recursive definition. Use inheritance to outline all possible objects that can be used in a similar way, and an extra sub-class that explicity contains children of the superclass
 
 ![Example of the Composite Pattern](img/composite.png)
+
+## L03: Design Patterns: Behavioral and Creational Patterns
